@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+25.times do |i|
+  Tweet.create(content: 'Nos cansamos de los abusos #chiledesperto')
+end 
+
+25.times do |i|
+  Tweet.create(content: 'Chile nos necesita #chilequierecambios')
+end
